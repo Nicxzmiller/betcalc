@@ -1,0 +1,14 @@
+.nav{
+    background-color: #34408E;
+    position: absolute;
+    margin: 0;
+}
+
+.menu{
+    background-color: #00D557;
+    color: #fff;
+}
+
+.nav-hover:hover{
+    background-color: #00D557;
+}
