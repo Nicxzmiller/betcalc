@@ -1,10 +1,10 @@
 import React from 'react'
-import Stake from './images/hero.jpg'
+import Stake from './images/hero.png'
 
 const Hero = () => {
   return (
     <>
-        <img className='w-full h-80' src={Stake} alt="hero-section" />
+      <img className='w-full' src={Stake} alt="hero-section" />
     </>
   )
 }
