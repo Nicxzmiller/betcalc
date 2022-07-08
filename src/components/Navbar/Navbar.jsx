@@ -8,7 +8,7 @@ import './Navbar.css';
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className='w-screen h-[60px] z-10 drop-shadow-lg'>
+    <div className='w-full h-16 drop-shadow-lg nav-p'>
       <nav className="w-full nav">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
@@ -94,8 +94,23 @@ const Navbar = () => {
                   Dashboard
                 </a>
                 <a className="nav-hover text-white block px-3 py-2 cursor-pointer rounded-md text-base font-medium">
-                    Calculator
-                  </a>
+                  Calculator
+                </a>
+                <a className="nav-hover text-white block px-3 py-2 cursor-pointer rounded-md text-base font-medium">
+                  Projects
+                </a>
+                <a className="nav-hover text-white block px-3 py-2 cursor-pointer rounded-md text-base font-medium">
+                  Statistics
+                </a>
+                <a className="nav-hover text-white block px-3 py-2 cursor-pointer rounded-md text-base font-medium">
+                  Profile
+                </a>
+                <a className="nav-hover text-white block px-3 py-2 cursor-pointer rounded-md text-base font-medium">
+                  Setting
+                </a>
+                <a className="nav-hover text-white block px-3 py-2 cursor-pointer rounded-md text-base font-medium">
+                  Logout
+                </a>
               </div>
             </div>
           )}

@@ -1,5 +1,6 @@
 .sidebar{
     background-color: #34408E;
+    z-index: 1;
 }
 
 .bsarrow{
@@ -8,5 +9,14 @@
 
 .roulette{
     /* background-color: #00D557; */
+    color: #fff;
+}
+
+.smlist{
+    color: #00D557;
+}
+
+.smlist:hover{
+    background-color: #00D557;
     color: #fff;
 }
