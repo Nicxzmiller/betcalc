@@ -22,12 +22,12 @@ const Navbar = () => {
               </div>
               <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">
-                  <a className="nav-hover text-white px-3 py-2 rounded-md text-sm cursor-pointer font-medium">
+                  {/* <a className="nav-hover text-white px-3 py-2 rounded-md text-sm cursor-pointer font-medium">
                     Dashboard
                   </a>
                   <a className="nav-hover text-white px-3 py-2 rounded-md text-sm font-medium cursor-pointer">
                     Calculator
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
