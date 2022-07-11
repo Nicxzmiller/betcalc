@@ -1,5 +1,5 @@
 .sidebar{
-    background-color: #34408E;
+    background-color: #161B3B;
     z-index: 1;
 }
 
@@ -21,8 +21,16 @@
     color: #fff;
 }
 
+<<<<<<< HEAD
 @media only screen and (max-width: 600px) {
     .sidebar{
         display: none;
     }
   }
+=======
+@media screen and (max-width:760px) {
+    .sidebar{
+        display: none;
+    }
+}
+>>>>>>> 97bed10bc7c8a3653d15932a76112862dbe26281

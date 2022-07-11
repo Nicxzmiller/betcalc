@@ -71,7 +71,10 @@ const Container = () => {
             </ul>
         </div>
         <div className="p-7">
-            <h1 className='text-2xl font-semibold'>Mainpage</h1>
+            <div className='grid grid-flow-row-dense grid-cols-3 grid-rows-3'>
+                <div className='col-span-2 bg-[#782939]'>Left</div>
+                <div className='bg-[#ea5678]'>Right</div>
+            </div>
         </div>
 
     </div>
