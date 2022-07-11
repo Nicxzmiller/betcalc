@@ -5,7 +5,7 @@ import { GiCartwheel } from 'react-icons/gi'
 import { RiDashboardFill } from 'react-icons/ri'
 import { AiOutlineLogout, AiOutlineSetting, AiOutlineBarChart } from 'react-icons/ai'
 import { ImCalculator } from 'react-icons/im'
-
+import { Link } from "react-router-dom";
 const Container = () => {
     const [open, setOpen] = useState(true);
     const [submenuOpen, setSubmenuOpen] = useState(false);
@@ -61,7 +61,7 @@ const Container = () => {
                             <ul>
                                 {menu.submenuItems.map((submenuItem, index) =>(
                                     <li key={index} className="text-gray-300 smlist rounded-md p-2 px-5 text-sm flex items-center gap-x-4 cursor-pointer">
-                                        {submenuItem.title}
+                                        <Link to={`/PlayerRefund`}>{submenuItem.title}</Link>
                                     </li>
                                 ))}
                             </ul>

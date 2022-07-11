@@ -4,7 +4,7 @@ import Stake from './images/hero.png'
 const Hero = () => {
   return (
     <>
-      <img className='w-full' src={Stake} alt="hero-section" />
+      <img className='w-full ' src={Stake} alt="hero-section" />
     </>
   )
 }

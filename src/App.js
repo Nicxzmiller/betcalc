@@ -1,16 +1,23 @@
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
-import Footer from './components/Footer/Footer';
-// import Hero from './components/Hero';
-import Container from './components/Container/Container';
+import PlayerRefund from './pages/PlayerRefund';
+import Home from './pages/Home'
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      {/* <Hero/> */}
-      <Container/>
-      <Footer/>
+      <Router>
+      <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="/PlayerRefund" element={<PlayerRefund />}/>
+        
+        </Routes>
+    </Router>
     </div>
   );
 }

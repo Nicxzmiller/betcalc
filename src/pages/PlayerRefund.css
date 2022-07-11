@@ -1,0 +1,57 @@
+.RefundContainer{
+    background-color: #34408E;
+    color: white;
+    padding: 20px;
+}
+
+.RefundSplitter{
+    display: flex;
+    justify-content: space-around;
+}
+
+.RefundLeft{
+    width: 20%;
+    height: 600px;
+    background-color: #161B3B;
+    border-radius: 8px;
+}
+.LeftWrapper{
+
+}
+.OperatorButton{
+    margin-top: 50px;
+    background-color: #00D557;
+    width: 60%;
+    font-size: 2vw;
+    border-radius: 10px;
+}
+.RefundRight{
+    width: 60%;
+    background-color: #161B3B;
+    height: 600px;
+    border-radius: 8px;
+    
+}
+.RightWrapper{
+
+  
+}
+.RightInputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Inputs{
+    margin: 35px 50px 0 50px;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    
+}
+.SubmitButton{
+    margin-top: 50px;
+    background-color: #00D557;
+    width: 60%;
+    font-size: 2vw;
+    border-radius: 10px;
+}

@@ -20,3 +20,9 @@
     background-color: #00D557;
     color: #fff;
 }
+
+@media only screen and (max-width: 600px) {
+    .sidebar{
+        display: none;
+    }
+  }
