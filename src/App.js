@@ -7,17 +7,18 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
+import DailyShiftRoster from './pages/DailyShiftRoster';
 
 function App() {
   return (
     <div className="App">
       <Router>
-      <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/PlayerRefund" element={<PlayerRefund />}/>
-        
+        <Routes>
+          <Route path="/" element={<Home />}/>
+          <Route path="/PlayerRefund" element={<PlayerRefund />}/>
+          <Route path="/DailyShiftRoster" element={<DailyShiftRoster/>}/>
         </Routes>
-    </Router>
+      </Router>
     </div>
   );
 }

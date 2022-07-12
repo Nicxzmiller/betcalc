@@ -6,6 +6,7 @@ import { RiDashboardFill } from 'react-icons/ri'
 import { AiOutlineLogout, AiOutlineSetting, AiOutlineBarChart } from 'react-icons/ai'
 import { ImCalculator } from 'react-icons/im'
 import { Link } from "react-router-dom";
+// import PlayerRefund from '../../pages/PlayerRefund';
 const Container = () => {
     const [open, setOpen] = useState(true);
     const [submenuOpen, setSubmenuOpen] = useState(false);
@@ -19,6 +20,7 @@ const Container = () => {
             spacing:true,
             submenuItems:[
                 {title: "Player Refunds"},
+                {title: "Daily Shift Roster (DSR)"}
             ],
         },
         {title: "Analytics", icon: <AiOutlineBarChart />},
@@ -30,7 +32,7 @@ const Container = () => {
 
   return (
     <div className='flex'>
-        <div className={`sidebar h-full p-5 pt-8 ${open ? "w-72": "w-20"} duration-300 relative`}>
+        <div className={`sidebar h-screen p-5 pt-8 ${open ? "w-72": "w-20"} duration-300 relative`}>
             <BsArrowLeftShort className={`bg-white bsarrow text-3xl rounded-full absolute -right-3 top-9 cursor-pointer ${!open && "rotate-180"}`} onClick={() => setOpen(!open)}/>
             <div className='inline-flex'>
                 <GiCartwheel className={`roulette text-4xl rounded cursor-pointer block float-left mr-2 duration-500 ${open && "rotate-[360deg]" }`}/>
@@ -70,10 +72,12 @@ const Container = () => {
                 ))}
             </ul>
         </div>
-        <div className="p-7">
+        <div className="flex flex-row h-screen p-3">
             <div className='grid grid-flow-row-dense grid-cols-3 grid-rows-3'>
-                <div className='col-span-2 bg-[#782939]'>Left</div>
-                <div className='bg-[#ea5678]'>Right</div>
+                <div className='col-span-2 bg-[#782939]'>
+                    left
+                </div>
+                <div className='bg-[#ea5678] ml-5'>Right</div>
             </div>
         </div>
 
