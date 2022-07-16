@@ -1,25 +1,14 @@
 import './App.css';
-import PlayerRefund from './pages/PlayerRefund';
-import Home from './pages/Home'
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Navigate,
-} from "react-router-dom";
-import DailyShiftRoster from './pages/DailyShiftRoster';
+import { Routes, Route } from "react-router-dom";
+import { Home } from './components/Home/Home'
+import PlayerRefund from './components/PlayerRefund/PlayerRefund';
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />}/>
-          <Route path="/PlayerRefund" element={<PlayerRefund />}/>
-          <Route path="/DailyShiftRoster" element={<DailyShiftRoster/>}/>
-        </Routes>
-      </Router>
-    </div>
+    <Routes>
+      <Route path='/' element={<Home />}/>
+      <Route path='playerRefund' element={<PlayerRefund/>}/>
+    </Routes>
   );
 }
 

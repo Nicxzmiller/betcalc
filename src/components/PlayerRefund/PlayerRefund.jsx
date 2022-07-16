@@ -1,8 +1,8 @@
 import React from 'react'
 // import Container from '../components/Container/Container'
-import Footer from '../components/Footer/Footer'
+import Footer from '../Footer/Footer'
 // import Hero from '../components/Hero'
-import Navbar from '../components/Navbar/Navbar'
+import Navbar from '../Navbar/Navbar'
 // import './PlayerRefund.css';
 
 
